@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Simple Disk Space Widget</string>
+
+    <string name="label.primary_space_amount_hint" formatted="false">%.2f GB free of %.2f GB</string>
+    <string name="label.secondary_space_amount_hint" formatted="false">%.2f GB free of %.2f GB(SD)</string>
+
+    <string name="label.primary_space_percentage_hint" formatted="false">%.1f%% free on internal storage</string>
+    <string name="label.secondary_space_percentage_hint" formatted="false">%.1f%% free on SD Card</string>
+    <string name="label.done" formatted="false">Done</string>
+
+    <string name="preference_indicators_color">Сolor</string>
+    <string name="preference_indicators_color_summary">Used space color on indicators</string>
+    <string name="preference_disk_space_hint">Hint format</string>
+    <string name="preference_disk_space_hint_summary">Format of the hint over space indicators</string>
+
+    <string name="settings">Settings</string>
+    <string name="prefs_key_space_indicators_colors">com.alexberdnikov.diskspacewidget.INDICATORS_COLOR</string>
+    <string name="prefs_key_hint_format">com.alexberdnikov.diskspacewidget.HINT_FORMAT</string>
+</resources>

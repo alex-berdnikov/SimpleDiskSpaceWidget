@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="space_hint_format_entries">
+        <item>Free amount of total</item>
+        <item>Free percentage</item>
+    </string-array>
+
+    <string name="hint_amount">amount</string>
+    <string name="hint_percentage">percentage</string>
+
+    <string-array name="space_hint_format_values">
+        <item>@string/hint_amount</item>
+        <item>@string/hint_percentage</item>
+    </string-array>
+</resources>

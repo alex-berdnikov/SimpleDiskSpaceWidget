@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="com.alexberdnikov.diskspacewidget.SettingsActivity"
+    android:minWidth="180dp"
+    android:minHeight="40dp"
+    android:updatePeriodMillis="0"
+    android:initialLayout="@layout/primary_storage"
+    android:resizeMode="horizontal|vertical"
+    android:previewImage="@drawable/widget_preview" />

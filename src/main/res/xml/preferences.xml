@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/settings">
+    <com.thebluealliance.spectrum.SpectrumPreference
+        android:title="@string/preference_indicators_color"
+        android:summary="@string/preference_indicators_color_summary"
+        android:key="@string/prefs_key_space_indicators_colors"
+        android:defaultValue="@color/defaultGreen"
+        app:spectrum_colors="@array/color_palette"
+        app:spectrum_outlineWidth="2dp" />
+    <ListPreference
+        android:title="@string/preference_disk_space_hint"
+        android:summary="@string/preference_disk_space_hint_summary"
+        android:key="@string/prefs_key_hint_format"
+        android:entries="@array/space_hint_format_entries"
+        android:entryValues="@array/space_hint_format_values"
+        android:defaultValue="@string/hint_amount" />
+</PreferenceScreen>

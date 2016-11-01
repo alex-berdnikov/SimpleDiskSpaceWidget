@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="customRed">#EF3625</color>
+    <color name="customPink">#F97495</color>
+    <color name="customPurple">#ab47bc</color>
+    <color name="deepPurple">#FF6A1B9A</color>
+    <color name="customIndigo">#FF3F51B5</color>
+    <color name="customBlue">#3D8FCE</color>
+    <color name="customLightBlue">#57B1f7</color>
+    <color name="customCyan">#47BED6</color>
+    <color name="customTeal">#26A69A</color>
+    <color name="defaultGreen">#00B159</color>
+    <color name="lightGreen">#59df81</color>
+    <color name="customLime">#d4e157</color>
+    <color name="customYellow">#FFFFE100</color>
+    <color name="customAmber">#ffc847</color>
+    <color name="customOrange">#FFFB8C00</color>
+    <color name="deepOrange">#EF5502</color>
+    <color name="customGray">#949494</color>
+    <color name="deepGray">#787878</color>
+    <color name="blueGray">#78909C</color>
+
+    <array name="color_palette">
+        <item>@color/customRed</item>
+        <item>@color/customPink</item>
+        <item>@color/customPurple</item>
+        <item>@color/deepPurple</item>
+        <item>@color/customIndigo</item>
+        <item>@color/customBlue</item>
+        <item>@color/customLightBlue</item>
+        <item>@color/customCyan</item>
+        <item>@color/customTeal</item>
+        <item>@color/defaultGreen</item>
+        <item>@color/lightGreen</item>
+        <item>@color/customLime</item>
+        <item>@color/customYellow</item>
+        <item>@color/customAmber</item>
+        <item>@color/customOrange</item>
+        <item>@color/deepOrange</item>
+        <item>@color/customGray</item>
+        <item>@color/deepGray</item>
+        <item>@color/blueGray</item>
+        <item>@android:color/black</item>
+    </array>
+</resources>
